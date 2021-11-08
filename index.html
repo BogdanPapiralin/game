@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+  
+	<meta charset="utf-8">
+
+<TITLE> Магічна куля </TITLE>
+
+
+<style>
+	
+
+	.leftCol7{
+	border: 0.7vh ridge rgb(16, 17, 100);
+	border-radius: 1vh;
+	width: 63%;
+	
+	 margin: auto;
+	 margin-top:5%;
+     background-color:rgb(35, 8, 70);
+	}
+	.player1{
+		
+		width: 30%;
+	}
+	.player2{
+		
+		width: 30%;
+		float:right;
+	}
+	.scale2{
+		
+		background-color:rgb(16, 7, 143);
+		height:3vw ;
+		width: 50%;
+		
+		border-radius:  0vh 1vh 1vh 0vh;
+		float:right
+	}
+	.scale1{
+	
+		background-color: rgb(13, 240, 115);
+		height:3vw ;
+		
+		border-radius: 1vh 0vh 0vh 1vh;
+		width: 50%;
+		
+	}
+	.scale{
+		
+		height:3vw ;
+		border: 0.7vh ridge rgb(156, 158, 8);
+		border-radius: 1vh 1vh 1vh 1vh;
+		width: 99%;
+	}
+	.text{
+		font-size:7vh;
+		color:rgb(151, 29, 12);
+	}
+	.tex{
+		font-size:7vh;
+		margin-left:15%;
+		color:rgb(151, 29, 12);
+	}
+	.tex1{
+		font-size:7vh;
+		margin-left:27%;
+		color:rgb(151, 29, 12);
+	}
+	.button1{
+		width:23%;
+		height:7%;
+		background-color: rgb(6, 122, 51);
+		border: 0.7vh ridge rgb(230, 134, 9);
+		border-radius: 1vh 1vh 1vh 1vh;
+		margin-left:20%;
+		margin-top:2%;
+		font-size:5vh;
+		color:rgb(13, 13, 134);
+	 }
+	
+	 
+</style><script src="script-8.js">
+ 
+</script>
+</HEAD>
+<body   >
+
+	<div class="leftCol7 vsp1">
+		<img src="Player1.png" class="player1"/>
+		
+			<span class="tex"id="pl1">0</span>
+			<span class="text"id="pl3">:</span>
+			<span class="text"id="pl2">0</span>
+		
+		<img src="Player2.png" class="player2"/>
+		
+		<div class="scale">
+			<div class="scale2"id="skal2">
+			</div >
+
+			<div class="scale1"id="skal1">
+			</div>
+		</div>
+		<input class=" button1 " type="button"  value="Почати Гру" onclick="timme()">
+		<input class=" button1 " type="button"  value="Скинути" onclick="timme1()">
+		<div>	
+				<span class="tex1">Залишилося спроб:</span>
+				<span class="text"id="aa">5</span>
+		</div>
+    </div>
+
+</body>
+</HTML>
